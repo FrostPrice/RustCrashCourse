@@ -5,7 +5,13 @@
 // mod tuples;
 // mod arrays;
 // mod vectors;
-mod conditionals;
+// mod conditionals;
+// mod loops;
+// mod functions;
+// mod pointer_ref;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
     // print::run();
@@ -15,7 +21,13 @@ fn main() {
     // tuples::run();
     // arrays::run();
     // vectors::run();
-    conditionals::run();
+    // conditionals::run();
+    // loops::run();
+    // functions::run();
+    // pointer_ref::run();
+    // structs::run();
+    // enums::run();
+    cli::run();
 }
 
 // To build the project for prodution use the: cargo build --release
@@ -27,3 +39,5 @@ fn main() {
 // REMEMBER: Variables are immutabe by default
 
 // Rust is a Systems proggraming language
+
+// You can pass arguments through the command line. E.g: When you run cargo run, there is this possibility
